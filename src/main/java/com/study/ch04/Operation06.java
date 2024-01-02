@@ -18,5 +18,6 @@ public class Operation06 {
         System.out.println(sResult);
         System.out.println(bResult);
 
+        System.out.println("테스트 코드 작성");
     }
 }
