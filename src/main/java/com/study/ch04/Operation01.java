@@ -12,7 +12,7 @@ public class Operation01 {
         System.out.println("1 - 1 = " + (1 - 1));
         System.out.println("1 * 1 = " + (1 * 1));   // 곱셈
         System.out.println("1 / 1 = " + (1 / 1));   // 나누기 - 몫
-        System.out.println("10 % 2 = " + (10 % 3)); // 나누기 - 나머지값
+        System.out.println("10 % 2 = " + (10 % 3)); // 나누기 - 나머지값dasdasd
 
 
     }
