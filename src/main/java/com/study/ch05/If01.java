@@ -18,6 +18,7 @@ public class If01 {
         }
 
 
+
         String tempStr = i > 3 ? print("i가 3보가 큽니다") : "";
     }
 
