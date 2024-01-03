@@ -5,6 +5,7 @@ public class memo {
     // ctrl + y 드래그 삭제
     // ctrl + d 드래그 복사
     // ctrl + Alt + L 코드정렬
+    // shift f6 파일명 변경
 
     // Boolean, String, Integer 등 -> 참조 자료형 - null, true, false 값이 들어감.
     
