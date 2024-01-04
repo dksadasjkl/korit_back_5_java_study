@@ -2,7 +2,7 @@ package com.study.ch03;
 
 public class Function02 {
     // 매개변수x, 리턴x
-    public static void fx01(){
+    public static void age(){
         System.out.println("fx01 함수 실행");
         System.out.println();
     }
@@ -37,7 +37,7 @@ public class Function02 {
 
 
     public static void main(String[] args) {
-        fx01();
+        age();
         fx02(27, "서창현");
         fx02("서창현", 26);
         int num = fx03();
@@ -46,7 +46,6 @@ public class Function02 {
         System.out.println();
         String result = fx04("서창현", 26);
         System.out.println(result);
-
 
     }
 }
