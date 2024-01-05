@@ -7,7 +7,7 @@ public class MemberMain {
         Scanner scanner = new Scanner(System.in);
         MemberService memberService = new MemberService();
         String selectedMenu =  null;
-//        String selectedMenu = new String("null"); 위에 값과 똑같다. 
+//        String selectedMenu = new String("null"); 위에 값과 똑같다.
 
         while (true) {
             System.out.println("[[회원 관리 프로그램]]");

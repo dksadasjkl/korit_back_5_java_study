@@ -8,7 +8,6 @@ public class MemberMain {
         MemberService memberService = new MemberService();
         Member[] members = new Member[3];
 
-
         String selectedMenu =  null;
 //        String selectedMenu = new String("null"); 위에 값과 똑같다.
 

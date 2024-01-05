@@ -1,6 +1,7 @@
 package com.study.ch08.member;
 
 public class MemberRepository {
+    Member[] members = new Member[3];
 
     int insert(Member[] members, Member member) {
         //객체는 최초 값은 null ->그러면 main에서 가져와야겟네? -> 초급자
