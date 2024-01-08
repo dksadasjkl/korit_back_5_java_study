@@ -1,5 +1,7 @@
 package com.study.memo;
 
+import com.study.ch08.car.Car;
+
 public class memo {
     // F5 파일 카피
     // ctrl + y 드래그 삭제
@@ -63,8 +65,10 @@ public class memo {
 
      */
 
-
-
+    // Car car = new Car(); -> 리터널  상수가 없어서 new를 해야함.
+    // new Car(); == 주소 -> 데이터 저장
+    // car = 주소값을 받은 변수
+    // 참조자료형의 기본값은 null. - > new를해서 줏고를 만들어야함
 
 
 
