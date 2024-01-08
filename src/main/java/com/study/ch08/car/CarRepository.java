@@ -2,7 +2,7 @@ package com.study.ch08.car;
 
 public class CarRepository {
     // DB 연결
-    final Car[] cars;  //주소
+    final Car[] cars; // 주소
     // 상수는 필수 초기화
 
     CarRepository(Car[] cars) {
@@ -22,13 +22,14 @@ public class CarRepository {
         cars[getEmptyIndex()] = car;
     }
 
-    Car[]  getCarDates () {
+    Car[]  getCarDatas () {
         int carCount = 0;
         for (int i = 0; i < cars.length; i++) {
             if (cars[i] != null) {
                 carCount++;
             }
         }
+
 
         Car[] newCars = new Car[carCount];
         int j = 0;

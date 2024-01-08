@@ -5,10 +5,8 @@ public class CarService {
 
 
      CarService (CarRepository carRepository){
-        this.carRepository = carRepository;
+         this.carRepository = carRepository;
     }
-
-
 
     boolean isFull() {
         return carRepository.getEmptyIndex() == -1;
@@ -19,7 +17,7 @@ public class CarService {
     }
 
     void PrintCarList() {
-         Car[] cars = carRepository.getCarDates();
+         Car[] cars = carRepository.getCarDatas();
          if (cars.length == 0) {
              System.out.println("등록된 차량이 없습니다.");
              return;

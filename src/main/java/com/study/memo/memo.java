@@ -9,6 +9,7 @@ public class memo {
     // ctrl + Alt + L 코드정렬
     // shift f6 파일명 변경
     // Alt Shift 방향키 > 이동
+    // ctrl + o 오버라이딩
 
     // Boolean, String, Integer 등 -> 참조 자료형 - null, true, false 값이 들어감.
     
@@ -69,7 +70,11 @@ public class memo {
     // new Car(); == 주소 -> 데이터 저장
     // car = 주소값을 받은 변수
     // 참조자료형의 기본값은 null. - > new를해서 줏고를 만들어야함
-
+    
+    
+    // 상속
+    // 자식 클래스에서 오버라이딩하면 업 캐스팅해도 오버라이딩한 값을 사용.
+    // -> super. => 부모메소드 호출 -> 생략되어있음
 
 
 
