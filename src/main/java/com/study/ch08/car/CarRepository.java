@@ -19,6 +19,7 @@ public class CarRepository {
     }
 
     void  insert(Car car) {
+
         cars[getEmptyIndex()] = car;
     }
 

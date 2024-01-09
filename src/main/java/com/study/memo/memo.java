@@ -10,6 +10,7 @@ public class memo {
     // shift f6 파일명 변경
     // Alt Shift 방향키 > 이동
     // ctrl + o 오버라이딩
+    // ctrl + i 추상 메소드만 오버라이딩
 
     // Boolean, String, Integer 등 -> 참조 자료형 - null, true, false 값이 들어감.
     

@@ -13,7 +13,7 @@ public class MemberMain {
             System.out.println("[[회원 관리 프로그램]]");
             System.out.println("1. 회원 등록");
             System.out.println("q. 프로그램 종료하기");
-
+            
             System.out.print("메뉴 선택 >>>");
             selectedMenu = scanner.nextLine();
 
