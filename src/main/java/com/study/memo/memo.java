@@ -3,6 +3,9 @@ package com.study.memo;
 import com.study.ch08.car.Car;
 
 public class memo {
+    // do it java - youtube
+
+
     // F5 파일 카피
     // ctrl + y 드래그 삭제
     // ctrl + d 드래그 복사

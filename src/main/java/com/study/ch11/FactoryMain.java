@@ -16,6 +16,7 @@ public class FactoryMain {
         // static -> static 호출
         // static에서 생성하면 main으로 본다?
         // 고정값을 사용할때 사용
+        // 클래스명.
         SamsungCompany.name = "애플";
         SamsungCompany.showCompanyInfo();
 
