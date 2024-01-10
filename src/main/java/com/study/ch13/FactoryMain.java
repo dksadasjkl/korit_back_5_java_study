@@ -9,6 +9,7 @@ public class FactoryMain {
         FactoryService1 factoryService1 = new FactoryService1(scanner, Factory.getInstance());
         FactoryService2 factoryService2 = new FactoryService2(scanner, Factory.getInstance());
 
+
         factoryService1.create();
         factoryService2.create();
 

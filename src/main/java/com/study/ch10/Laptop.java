@@ -12,4 +12,6 @@ public class Laptop implements Power{
     public void setPowerOff() {
 
     }
+
+
 }
