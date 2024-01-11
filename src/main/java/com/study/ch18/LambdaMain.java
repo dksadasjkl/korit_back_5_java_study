@@ -23,7 +23,6 @@ public interface LambdaMain {
             System.out.println("a + b = " + (a + b));
         };
         start.run();
-
         ///// Supplier
         // 	매개변수 x,	반환값 o
         Supplier<Integer> supplier1 = () -> 10;
@@ -76,12 +75,28 @@ public interface LambdaMain {
         /////  Predicate
         Predicate<Integer> filterFx = num -> num % 2 == 0;
         List<Integer> numList = new ArrayList<>();
+
         for (int i = 0; i < 10; i++) {
             numList.add(i + 1);
         }
         System.out.println(numList);
+        // .stream() -> 스트링객체로 변환해서 카피
+        // .filter(filterFx) -> filterFx -> true, false -> true 반복해서 stream()에 넣어라 / false면 x 
+        // collect(Collectors.toList()); ->toList 로 변환해서 담아라
+        // 뒤도감기 안됨. -> 배열을 가져와서 담아서
         List<Integer> newList = numList.stream().filter(filterFx).collect(Collectors.toList());
         System.out.println(newList);
+//        numList.stream(): numList를 스트림으로 변환합니다.
+//        .filter(filterFx): filterFx라는 조건을 만족하는 요소들만을 스트림에서 걸러냅니다.
+//        .collect(Collectors.toList()): 필터링된 요소들을 새로운 리스트로 수집합니다.
+//         System.out.println(newList): 새로운 리스트를 출력합니다.
+        // .map에 담아라
+        List<Integer> newList2 = numList.stream().map(num -> num * 2).collect(Collectors.toList());
+        System.out.println(newList);
+//        numList.stream(): numList를 스트림으로 변환합니다.
+//         .map(num -> num * 2): 각 요소를 2배로 변환합니다. map은 각 요소에 주어진 함수를 적용한 결과로 새로운 스트림을 생성합니다.
+//         .collect(Collectors.toList()): 변환된 요소들을 새로운 리스트로 수집합니다.
+//         System.out.println(newList): 새로운 리스트를 출력합니다.
 
     }
 }

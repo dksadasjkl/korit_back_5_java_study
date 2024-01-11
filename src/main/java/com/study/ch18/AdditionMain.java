@@ -9,8 +9,6 @@ public class AdditionMain {
                 return x + y;
             }
         };
-
-        
         Addition addition2 = new AdditionImpl();
         System.out.println(addition.add(10, 20));
         System.out.println(addition2.add(30, 40));
