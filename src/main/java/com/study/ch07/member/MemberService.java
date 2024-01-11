@@ -10,7 +10,7 @@ public class MemberService {
         while (true) {
             System.out.print(label +  "(입력취소: exit) >>> ");
             value = scanner.nextLine();
-            if (!value.isBlank()){
+            if (!value.isBlank()) {
                 break;
             }
         }
