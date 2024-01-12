@@ -2,7 +2,6 @@ package com.study.ch10;
 
 public abstract class ElectronicDevice {
 
-
     /*
     [ 추상화 ]
     1. 추상 클래스 abstract class
