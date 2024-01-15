@@ -7,7 +7,6 @@ public class HashMapMain {
         // Set + ArrayList
         // 데이터 중복 o, 키값은 중복 x
         HashMap<String, String> map = new HashMap<>();
-        
         map.put("username", "seo");
         map.put("password", "이창현");
         map.put("name", "삼창현");
