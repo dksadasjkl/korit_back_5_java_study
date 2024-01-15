@@ -4,6 +4,39 @@ import com.study.ch08.car.Car;
 
 public class memo {
     // do it java - youtube
+    // https://koritbs.cafe24.com/student/index.php
+
+    // https://sites.google.com/view/kji-java/index
+
+    // https://chat.openai.com/auth/login
+
+    // 크롬 - 테마 -  black theme
+
+    // chrome://flags/ -> Dark
+
+    // Ctrl + Alt + s -> Atom Material Icons, Dracula Theme, Lombok
+    // [롬복 사이트 메이븐] https://mvnrepository.com/ - > Project Lombok ->
+    /*
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.30</version>
+    <scope>provided</scope>
+</dependency>
+
+// lombok 추가 -> pom.xml
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+     */
+
 
 
     // F5 파일 카피
