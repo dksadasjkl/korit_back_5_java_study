@@ -1,6 +1,6 @@
-package com.study.s3;
+package com.study.ch00.s3;
 
-public class C extends Program{
+public class C extends Program {
 
     @Override
     public void develop() {

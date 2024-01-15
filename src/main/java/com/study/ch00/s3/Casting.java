@@ -1,4 +1,4 @@
-package com.study.s3;
+package com.study.ch00.s3;
 
 public class Casting {
     public static void main(String[] args) {

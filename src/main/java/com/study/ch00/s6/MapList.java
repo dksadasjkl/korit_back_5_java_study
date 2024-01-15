@@ -1,4 +1,4 @@
-package com.study.s6;
+package com.study.ch00.s6;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,6 +8,7 @@ import java.util.Map;
 public class MapList {
     public static void main(String[] args) {
         List<Map<String, Object>> customers = new ArrayList<Map<String, Object>>();
+
         Map<String, Object> customer1 = new HashMap<>();
         customer1.put("name", "홍길동");
         customer1.put("rating", "vip");

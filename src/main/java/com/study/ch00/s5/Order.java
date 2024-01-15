@@ -1,4 +1,4 @@
-package com.study.s5;
+package com.study.ch00.s5;
 
 public class Order {
     private int orderId;

@@ -1,4 +1,4 @@
-package com.study.s1;
+package com.study.ch00.s1;
 
 public class Main {
     public static void main(String[] args) {

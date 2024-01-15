@@ -1,4 +1,4 @@
-package com.study.s4;
+package com.study.ch00.s4;
 
 class Factory {
         private static Factory instance;

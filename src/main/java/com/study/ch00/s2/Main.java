@@ -1,4 +1,4 @@
-package com.study.s2;
+package com.study.ch00.s2;
 
 import java.util.Arrays;
 import java.util.List;
