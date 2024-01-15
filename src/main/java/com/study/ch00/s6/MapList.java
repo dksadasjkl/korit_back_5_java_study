@@ -20,6 +20,7 @@ public class MapList {
         customer2.put("rating", "gold");
         customer2.put("age", "35");
         customers.add(customer2);
+        ///
 
         for (Map<String, Object> customer : customers) {
             System.out.println("name="+ customer.get("name"));
