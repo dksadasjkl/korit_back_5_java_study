@@ -24,7 +24,6 @@ public class MapList {
             System.out.println("name="+ customer.get("name"));
             System.out.println("rating="+ customer.get("rating"));
             System.out.println("age="+ customer.get("age"));
-
         }
     }
 }

@@ -1,8 +1,5 @@
 package com.study.s3;
 
-import com.study.ch09.Computer;
-import com.study.ch09.SmartPhone;
-
 public class Casting {
     public static void main(String[] args) {
         Program[] programs = new Program[2];

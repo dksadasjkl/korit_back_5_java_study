@@ -23,6 +23,7 @@ public class Order {
         System.out.println("수량: " + stock);
     }
 
+
     public static OrderBuilder builder() {
         return new OrderBuilder();
     }
