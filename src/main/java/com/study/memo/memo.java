@@ -1,14 +1,13 @@
 package com.study.memo;
 
-import com.study.ch08.car.Car;
-
 public class memo {
     // do it java - youtube
-    // https://koritbs.cafe24.com/student/index.php
+    // https://koritbs.cafe24.com/student/index.php // 학생관리프로그램
 
-    // https://sites.google.com/view/kji-java/index
+    // https://sites.google.com/view/kji-java/index - 강의쌤 (인텔리제이 다운)
+    // https://github.com/code1218 - 깃허브 강의쌤꺼
 
-    // https://chat.openai.com/auth/login
+    // https://chat.openai.com/auth/login // 챗 gpt 링크
 
     // 크롬 - 테마 -  black theme
 
@@ -24,6 +23,7 @@ public class memo {
     <version>1.18.30</version>
     <scope>provided</scope>
 </dependency>
+
 
 // lombok 추가 -> pom.xml
     <dependencies>
