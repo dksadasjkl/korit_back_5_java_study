@@ -9,6 +9,11 @@ public class memo {
 
     // https://chat.openai.com/auth/login // 챗 gpt 링크
 
+//    이클립스 다운
+    // https://spring.io/tools/ -> 4.21.0 windowsx86
+    // https://johann.loefflmann.net/en/software/jarfix/index.html
+    // https://projectlombok.org/download
+    
     // 크롬 - 테마 -  black theme
 
     // chrome://flags/ -> Dark
