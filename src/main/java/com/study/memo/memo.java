@@ -118,6 +118,45 @@ public class memo {
     // 자식 클래스에서 오버라이딩하면 업 캐스팅해도 오버라이딩한 값을 사용.
     // -> super. => 부모메소드 호출 -> 생략되어있음
 
+//    [트리거]
+//    @ INSERT` AFTER 를 사용해야 키값이 생성됨.
+//
+//            CREATE DEFINER = CURRENT_USER TRIGGER `db_study`.`user_mst_tb_AFTER_INSERT` AFTER INSERT ON `user_mst_tb` FOR EACH ROW
+//            BEGIN
+//    insert into user_dtl_tb
+//    values(new.user_mst_id, null, null); - mst 키값
+//    END
+//
+//    @ BEFORE DELETE
+//
+//    CREATE DEFINER = CURRENT_USER TRIGGER `db_study`.`user_mst_tb_BEFORE_DELETE` BEFORE DELETE ON `user_mst_tb` FOR EACH ROW
+//            BEGIN
+//    delete
+//            from
+//    user_dtl_tb
+//            where
+//    user_dtl_id = old.user_mst.id;
+//    END
+//
+//    @ INSERT UPDATE
+//    @ BEFORE UPDATE
+//
+//[프로시저] - 함수의 형태
+//    Stored Procedures
+//
+//    CREATE DEFINER=`aws`@`%` PROCEDURE `p_sum`(
+//    in v_num1 int,   (입력)
+//    in v_num2 int
+//)
+//    BEGIN
+//            select
+//    v_num1 + v_num2 as result;
+//    END
+//
+//
+//            (sql)
+//    call p_sum(10, 20);
+
 
 
 }
